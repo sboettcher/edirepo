@@ -1,0 +1,28 @@
+Package: platypus-test
+Version: 1.0.0
+Depends: libmraa0
+Section: base
+Architecture: all
+Maintainer: Sebastian Boettcher
+MD5Sum: 58b6bb2ff05253d4c067710abe883117
+Size: 573436
+Filename: platypus-test_1.0.0_all.ipk
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Description:  Tests the sensors on the platypus dev board for functionality
+Priority: optional
+
+
+Package: platypus
+Version: 1.0.0
+Depends: libmraa0,platypus-test
+Section: base
+Architecture: all
+Maintainer: Sebastian Boettcher
+MD5Sum: aea55a40236b1bb3905328cf3f941063
+Size: 540096
+Filename: platypus_1.0.0_all.ipk
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Description:  The main platypus software binary, with autostart service
+Priority: optional
+
+
