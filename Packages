@@ -13,14 +13,14 @@ Priority: optional
 
 
 Package: platypus
-Version: 1.0.0
+Version: 1.0.1
 Depends: libmraa0,platypus-test
 Section: base
 Architecture: all
 Maintainer: Sebastian Boettcher
-MD5Sum: 8c028d83467227acd863b8d2ff958733
-Size: 540076
-Filename: platypus_1.0.0_all.ipk
+MD5Sum: befdd30972af5b8f9fc162158c8599a7
+Size: 540132
+Filename: platypus_1.0.1_all.ipk
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Description:  The main platypus software binary, with autostart service
 Priority: optional
