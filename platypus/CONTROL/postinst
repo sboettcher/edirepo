@@ -1,0 +1,19 @@
+#!/bin/bash
+
+rm /etc/localtime
+ln -s /usr/share/zoneinfo/Europe/Paris /etc/localtime
+date
+
+platypus-test --id-only
+
+systemctl daemon-reload
+
+while true; do
+  read -p "> Enable platypus autostart service? " yn
+  case $yn in
+    [Yy]* ) systemctl enable platypus; break;;
+    [Nn]* ) break;;
+    * ) echo "> Please answer yes or no.";;
+  esac
+done
+

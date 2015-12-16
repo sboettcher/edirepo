@@ -1,0 +1,9 @@
+Package: platypus
+Section: base
+Priority: optional
+Version: 1.0.0
+Architecture: all
+Maintainer: Sebastian Boettcher
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Depends: libmraa0,platypus-test
+Description: The main platypus software binary, with autostart service

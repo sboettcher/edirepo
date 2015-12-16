@@ -1,0 +1,9 @@
+Package: platypus-test
+Section: base
+Priority: optional
+Version: 1.0.0
+Architecture: all
+Maintainer: Sebastian Boettcher
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Depends: libmraa0
+Description: Tests the sensors on the platypus dev board for functionality
