@@ -1,0 +1,9 @@
+Package: radvd
+Section: base
+Priority: optional
+Version: 2.11
+Architecture: x86_64
+Maintainer: Philipp Scholl
+Source: abc
+Depends: 
+Description: The flex package

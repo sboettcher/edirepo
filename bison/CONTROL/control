@@ -1,0 +1,9 @@
+Package: bison
+Section: base
+Priority: optional
+Version: 3.0.4
+Architecture: x86_64
+Maintainer: Philipp Scholl
+Source: abc
+Depends: 
+Description: The bison package
