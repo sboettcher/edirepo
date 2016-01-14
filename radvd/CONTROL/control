@@ -1,7 +1,7 @@
 Package: radvd
 Section: base
 Priority: optional
-Version: 2.11
+Version: 2.12
 Architecture: all
 Maintainer: Philipp Scholl
 Source: abc
