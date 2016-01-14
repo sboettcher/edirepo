@@ -1,6 +1,67 @@
-Version: none
+Package: bison
+Version: 3.0.4
+Section: base
+Architecture: x86_64
+Maintainer: Philipp Scholl
+MD5Sum: 389588cbfd3859af17d991f7285d7496
+Size: 880722
+Filename: bison_3.0.4_x86_64.ipk
+Source: abc
+Description:  The bison package
+Priority: optional
+
+
+Package: flex
+Version: 2.6.0
+Section: base
+Architecture: x86_64
+Maintainer: Philipp Scholl
+MD5Sum: f2f41279ed972eb3c7c9daa38960bc38
+Size: 1156982
+Filename: flex_2.6.0_x86_64.ipk
+Source: abc
+Description:  The flex package
+Priority: optional
+
+
+Package: platypus-test
+Version: 1.1.0
+Depends: libmraa0
+Section: base
+Architecture: all
+Maintainer: Sebastian Boettcher
+MD5Sum: 360755e919f6b1c284d8c2882ea6b1ed
+Size: 579826
+Filename: platypus-test_1.1.0_all.ipk
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Description:  Tests the sensors on the platypus dev board for functionality
+Priority: optional
+
+
+Package: platypus
+Version: 1.1.0
+Depends: libmraa0,platypus-test
+Section: base
+Architecture: all
+Maintainer: Sebastian Boettcher
+MD5Sum: 32b8840ee43551de2175f855e67e8b62
+Size: 547036
+Filename: platypus_1.1.0_all.ipk
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Description:  The main platypus software binary, with autostart service
+Priority: optional
+
+
+Package: radvd
+Version: 2.11
+Section: base
+Architecture: x86_64
+Maintainer: Philipp Scholl
 MD5Sum: 0bb6b4084d56080985e946ba1edc60a2
 Size: 66140
 Filename: radvd_2.11_x86_64.ipk
+Source: abc
+Description:  The flex package
+Priority: optional
 
 
