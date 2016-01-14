@@ -2,7 +2,7 @@ Package: radvd
 Section: base
 Priority: optional
 Version: 2.11
-Architecture: x86_64
+Architecture: all
 Maintainer: Philipp Scholl
 Source: abc
 Depends: 
