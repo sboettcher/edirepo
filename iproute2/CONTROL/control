@@ -2,7 +2,7 @@ Package: iproute2
 Section: base
 Priority: optional
 Version: 4.3.0
-Architecture: x86_64
+Architecture: core2-32
 Maintainer: Philipp Scholl
 Source: abc
 Depends: 
