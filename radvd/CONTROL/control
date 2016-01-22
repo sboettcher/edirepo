@@ -1,8 +1,13 @@
 Package: radvd
 Section: base
 Priority: optional
+<<<<<<< HEAD
 Version: 2.11
 Architecture: core2-32
+=======
+Version: 2.12
+Architecture: all
+>>>>>>> 033ac0abab021634a92e502e07bad15492a3e469
 Maintainer: Philipp Scholl
 Source: abc
 Depends: 
