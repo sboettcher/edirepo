@@ -5,5 +5,5 @@ Version: 1.1.0
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
-Depends: libmraa0
+Depends: mraa
 Description: Tests the sensors on the platypus dev board for functionality
