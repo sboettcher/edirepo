@@ -2,7 +2,7 @@ Package: platypus
 Section: base
 Priority: optional
 Version: 1.1.0
-Architecture: all
+Architecture: core2-32
 Maintainer: Sebastian Boettcher
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Depends: libmraa0,platypus-test

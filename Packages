@@ -38,30 +38,43 @@ Priority: optional
 
 
 Package: platypus-test
-Version: 1.0.0
+Version: 1.1.0
 Depends: libmraa0
 Section: base
-Architecture: all
+Architecture: core2-32
 Maintainer: Sebastian Boettcher
-MD5Sum: 69d6bcc859337d58a270cffa10234c78
-Size: 573414
-Filename: platypus-test_1.0.0_all.ipk
+MD5Sum: fac9a32092272247d059fb259145bd66
+Size: 579766
+Filename: platypus-test_1.1.0_core2-32.ipk
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Description:  Tests the sensors on the platypus dev board for functionality
 Priority: optional
 
 
 Package: platypus
-Version: 1.0.1
+Version: 1.1.0
 Depends: libmraa0,platypus-test
 Section: base
-Architecture: all
+Architecture: core2-32
 Maintainer: Sebastian Boettcher
-MD5Sum: befdd30972af5b8f9fc162158c8599a7
-Size: 540132
-Filename: platypus_1.0.1_all.ipk
+MD5Sum: 9f34c487b8fe55f14c0a085447977765
+Size: 545514
+Filename: platypus_1.1.0_core2-32.ipk
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Description:  The main platypus software binary, with autostart service
+Priority: optional
+
+
+Package: radvd
+Version: 2.12
+Section: base
+Architecture: all
+Maintainer: Philipp Scholl
+MD5Sum: ba53c525e45dfae86f2e2594d27419ac
+Size: 65850
+Filename: radvd_2.12_all.ipk
+Source: abc
+Description:  The flex package
 Priority: optional
 
 
