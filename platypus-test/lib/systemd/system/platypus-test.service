@@ -1,0 +1,15 @@
+# copy to /lib/systemd/system/
+# run systemctl daemon-reload
+# run systemctl start|stop|enable|disable|status platypus
+
+[Unit]
+Description=platypus-test
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/platypus-test --config:/etc/platypus.conf
+Restart=no
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

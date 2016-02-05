@@ -1,0 +1,6 @@
+#!/bin/bash
+
+systemctl stop platypus-test
+systemctl disable platypus-test
+systemctl daemon-reload
+
