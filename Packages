@@ -38,14 +38,14 @@ Priority: optional
 
 
 Package: platypus-test
-Version: 1.1.0
+Version: 1.2.0
 Depends: mraa
 Section: base
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
-MD5Sum: 137c64f969f69a84a78f6634b5906d76
-Size: 579762
-Filename: platypus-test_1.1.0_core2-32.ipk
+MD5Sum: 4a7985132704987f0b360b571176f294
+Size: 604092
+Filename: platypus-test_1.2.0_core2-32.ipk
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Description:  Tests the sensors on the platypus dev board for functionality
 Priority: optional
@@ -57,8 +57,8 @@ Depends: mraa,platypus-test
 Section: base
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
-MD5Sum: aec88dfa5a3d50ec930f814aa15c0f90
-Size: 545512
+MD5Sum: 11b8c55ae4dbc5b0e6d38e2d0439c466
+Size: 547330
 Filename: platypus_1.1.0_core2-32.ipk
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Description:  The main platypus software binary, with autostart service
