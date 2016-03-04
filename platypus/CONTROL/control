@@ -1,9 +1,9 @@
 Package: platypus
 Section: base
 Priority: optional
-Version: 1.1.0
+Version: 1.2.0
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
-Depends: mraa,platypus-test
+Depends: mraa,boost-dev,platypus-test
 Description: The main platypus software binary, with autostart service

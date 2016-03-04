@@ -2,5 +2,4 @@
 
 systemctl stop platypus
 systemctl disable platypus
-systemctl daemon-reload
 

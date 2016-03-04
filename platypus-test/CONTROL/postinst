@@ -6,4 +6,5 @@ date
 
 systemctl daemon-reload
 
+echo "> enable autostart service with 'systemctl enable platypus-test'"
 

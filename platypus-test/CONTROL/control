@@ -1,9 +1,9 @@
 Package: platypus-test
 Section: base
 Priority: optional
-Version: 1.2.0
+Version: 1.3.0
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
-Depends: mraa
+Depends: mraa,boost-dev
 Description: Tests the sensors on the platypus dev board for functionality
