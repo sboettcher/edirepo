@@ -9,4 +9,5 @@ platypus-test --id-only
 systemctl daemon-reload
 
 echo "> enable autostart service with 'systemctl enable platypus'"
+echo "> you need to reboot to enable the installed mcu script!"
 
