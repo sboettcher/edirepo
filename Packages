@@ -43,8 +43,8 @@ Depends: mraa,boost-dev
 Section: base
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
-MD5Sum: 3e8953c4333ab688ed6962f1eb63219b
-Size: 514082
+MD5Sum: 03e8068bdc0551d0b0a2b210aa405591
+Size: 514088
 Filename: platypus-test_1.5.0_core2-32.ipk
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
 Description:  Tests the sensors on the platypus dev board for functionality
