@@ -1,7 +1,7 @@
 Package: platypus
 Section: base
 Priority: optional
-Version: 1.4.0
+Version: 1.5.0
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
