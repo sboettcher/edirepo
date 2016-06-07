@@ -7,7 +7,7 @@ Description=platypus
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/platypus --config /etc/platypus.conf
+ExecStart=/usr/bin/platypus
 Restart=on-failure
 RestartSec=10s
 Environment=NODE_ENV=production
