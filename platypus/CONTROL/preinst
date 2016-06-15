@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "> trying to remove package mcu-fw-bin, since it might interfere with installation"
+
+opkg remove mcu-fw-bin
+
+
