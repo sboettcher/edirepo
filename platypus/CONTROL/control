@@ -5,5 +5,5 @@ Version: 1.5.0
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
 Source: https://github.com/pscholl/wsnlab/tree/master/platypus
-Depends: mraa (>= 1.0.0),boost-dev (= 1.60.0),platypus-test
+Depends: mraa (>= 1.0.0),boost-dev (>= 1.60.0),platypus-test
 Description: The main platypus software binary, with autostart service
