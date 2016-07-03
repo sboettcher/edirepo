@@ -4,13 +4,13 @@
 
 [Unit]
 Description=platypus
-After=network.target
+Requires=multi-user.target
+After=multi-user.target
 
 [Service]
 ExecStart=/usr/bin/platypus
 Restart=on-failure
 RestartSec=10s
-Environment=NODE_ENV=production
 
 [Install]
 WantedBy=multi-user.target
