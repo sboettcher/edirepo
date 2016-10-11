@@ -1,0 +1,9 @@
+Package: wsnlab
+Section: base
+Priority: optional
+Version: 1.0.0
+Architecture: core2-32
+Maintainer: Sebastian Boettcher
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Depends: mraa (>= 1.0.0),boost-dev (>= 1.56.0)
+Description: Includes a functionality test for the sensors on the platypus dev board

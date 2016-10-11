@@ -3,3 +3,6 @@
 systemctl stop platypus
 systemctl disable platypus
 
+systemctl stop platypus-test
+systemctl disable platypus-test
+
