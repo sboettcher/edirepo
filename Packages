@@ -37,31 +37,17 @@ Description:  The iproute2 package
 Priority: optional
 
 
-Package: platypus-test
-Version: 1.5.1
-Depends: mraa (>= 1.0.0),boost-dev (>= 1.60.0)
-Section: base
-Architecture: core2-32
-Maintainer: Sebastian Boettcher
-MD5Sum: ec413a60f115b9bc2926b7944f981d88
-Size: 514116
-Filename: platypus-test_1.5.1_core2-32.ipk
-Source: https://github.com/pscholl/wsnlab/tree/master/platypus
-Description:  Tests the sensors on the platypus dev board for functionality
-Priority: optional
-
-
 Package: platypus
-Version: 2.0.0
-Depends: mraa (>= 1.0.0),boost-dev (>= 1.60.0),platypus-test
+Version: 3.0.0
+Depends: mraa (>= 1.0.0),boost-dev (>= 1.56.0)
 Section: base
 Architecture: core2-32
 Maintainer: Sebastian Boettcher
-MD5Sum: 9717eafdbcb704f5b97007c0931fc672
-Size: 1170470
-Filename: platypus_2.0.0_core2-32.ipk
-Source: https://github.com/pscholl/wsnlab/tree/master/platypus
-Description:  The main platypus software binary, with autostart service
+MD5Sum: a5c05967c22a23dc17608d15b62db0e9
+Size: 522282
+Filename: platypus_3.0.0_core2-32.ipk
+Source: internal, not available
+Description:  The main platypus software binaries, with autostart services
 Priority: optional
 
 
@@ -88,6 +74,20 @@ Size: 65872
 Filename: radvd_2.11_core2-32.ipk
 Source: abc
 Description:  The flex package
+Priority: optional
+
+
+Package: wsnlab
+Version: 1.0.0
+Depends: mraa (>= 1.0.0),boost-dev (>= 1.56.0)
+Section: base
+Architecture: core2-32
+Maintainer: Sebastian Boettcher
+MD5Sum: e862acb33b8d5432339e7ffb60f78391
+Size: 138648
+Filename: wsnlab_1.0.0_core2-32.ipk
+Source: https://github.com/pscholl/wsnlab/tree/master/platypus
+Description:  Includes a functionality test for the sensors on the platypus dev board
 Priority: optional
 
 
